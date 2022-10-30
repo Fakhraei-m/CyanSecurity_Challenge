@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CyanSecurity App Test Suite" duration-ms="67262" started-at="2022-10-30T16:08:30 EET" finished-at="2022-10-30T16:09:38 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P1@6f36c2f0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P2@13d73f29]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P3@565f390]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="CyanSecurity; Test All Problems" duration-ms="67262" started-at="2022-10-30T16:08:30 EET" finished-at="2022-10-30T16:09:38 EET">
+      <class name="com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P2">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P2@13d73f29]" name="setUpClass" is-config="true" duration-ms="16" started-at="2022-10-30T16:09:34 EET" finished-at="2022-10-30T16:09:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31b650e9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P2@13d73f29]" name="runScenario" duration-ms="1647" started-at="2022-10-30T16:09:34 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-30T16:09:36 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send GET request to "http://the-internet.herokuapp.com/status_codes/200" and check the status code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying Status codes for "http://the-internet.herokuapp.com" using Rest-Assured lib"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P2@13d73f29]" name="runScenario" duration-ms="319" started-at="2022-10-30T16:09:36 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-30T16:09:36 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send GET request to "http://the-internet.herokuapp.com/status_codes/404" and check the status code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying Status codes for "http://the-internet.herokuapp.com" using Rest-Assured lib"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P2@13d73f29]" name="runScenario" duration-ms="329" started-at="2022-10-30T16:09:36 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-30T16:09:36 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send GET request to "http://the-internet.herokuapp.com/status_codes/500" and check the status code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying Status codes for "http://the-internet.herokuapp.com" using Rest-Assured lib"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P2@13d73f29]" name="runScenario" duration-ms="314" started-at="2022-10-30T16:09:36 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-30T16:09:37 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send GET request to "http://the-internet.herokuapp.com/status_codes/301" and check the status code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying Status codes for "http://the-internet.herokuapp.com" using Rest-Assured lib"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P2@13d73f29]" name="tearDownClass" is-config="true" duration-ms="9" started-at="2022-10-30T16:09:37 EET" finished-at="2022-10-30T16:09:37 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P2 -->
+      <class name="com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P1">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P1@6f36c2f0]" name="setUpClass" is-config="true" duration-ms="343" started-at="2022-10-30T16:08:30 EET" finished-at="2022-10-30T16:08:31 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31b650e9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P1@6f36c2f0]" name="runScenario" duration-ms="11257" started-at="2022-10-30T16:08:31 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-30T16:08:42 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Login functionality with VALID data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P1@6f36c2f0]" name="runScenario" duration-ms="7284" started-at="2022-10-30T16:08:42 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-30T16:08:50 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Logout functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P1@6f36c2f0]" name="runScenario" duration-ms="8563" started-at="2022-10-30T16:08:50 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-30T16:08:58 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Login functionality with INVALID data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P1@6f36c2f0]" name="runScenario" duration-ms="9186" started-at="2022-10-30T16:08:58 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-30T16:09:07 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Login functionality with INVALID data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P1@6f36c2f0]" name="runScenario" duration-ms="9749" started-at="2022-10-30T16:09:07 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-30T16:09:17 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Login functionality with INVALID data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P1@6f36c2f0]" name="runScenario" duration-ms="8570" started-at="2022-10-30T16:09:17 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-30T16:09:26 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Login functionality with INVALID data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P1@6f36c2f0]" name="runScenario" duration-ms="8268" started-at="2022-10-30T16:09:26 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-30T16:09:34 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Login functionality with INVALID data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P1@6f36c2f0]" name="tearDownClass" is-config="true" duration-ms="26" started-at="2022-10-30T16:09:34 EET" finished-at="2022-10-30T16:09:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P1 -->
+      <class name="com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P3">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P3@565f390]" name="setUpClass" is-config="true" duration-ms="61" started-at="2022-10-30T16:09:37 EET" finished-at="2022-10-30T16:09:37 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@31b650e9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P3@565f390]" name="runScenario" duration-ms="858" started-at="2022-10-30T16:09:37 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-30T16:09:38 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Send GET request for Users and check for an specific user in response"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P3@565f390]" name="runScenario" duration-ms="141" started-at="2022-10-30T16:09:38 EET" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-10-30T16:09:38 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Vrify the address of an specific user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P3@565f390]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2022-10-30T16:09:38 EET" finished-at="2022-10-30T16:09:38 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cs.qa.cucumber.runner.CucumberTestNGTestRunner_P3 -->
+    </test> <!-- CyanSecurity; Test All Problems -->
+  </suite> <!-- CyanSecurity App Test Suite -->
+</testng-results>
