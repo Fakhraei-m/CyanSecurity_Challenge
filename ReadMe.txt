@@ -1,14 +1,17 @@
 Problem One - Form Authentication:
-Run the "testng_problem1.xml" from src/main/resources, To run the test-cases related to this porblem.
+Run the "testng_problem1.xml" from src/main/resources, to run the test-cases related to this porblem.
+Feature file in src/main/resources/Features/LoginFeature.feature
 
 Problem Two - HTTP StatusCodes:
-Run the "testng_problem2.xml" from src/main/resources, To run the test-cases related to this porblem.
+Run the "testng_problem2.xml" from src/main/resources, to run the test-cases related to this porblem.
+Feature file in src/main/resources/Features/StatusCodeVerification.feature
 
 Optional Problem Three - REST API:
-Run the "testng_problem3.xml" from src/main/resources, To run the test-cases related to this porblem.
+Run the "testng_problem3.xml" from src/main/resources, to run the test-cases related to this porblem.
+Feature file in src/main/resources/Features/ResponseJsonVerification.feature
 
 All the the problems 1, 2, and 3:
-Run the "testng_cucumber.xml" from src/main/resources, To run all the test-cases for porblem 1, 2, and 3.
+Run the "testng_cucumber.xml" from src/main/resources, to run all the test-cases for porblem 1, 2, and 3.
 
 Notice:
 Default browser for running the tests is Chrome. To change the browser to Firefox:
